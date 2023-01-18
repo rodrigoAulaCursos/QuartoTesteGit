@@ -5,6 +5,7 @@ public class Pessoa {
 	private String nomePessoa;
 	private String email;
 	private String cpf;
+	private Date dtNascimento;
 	
 	public String getNomePessoa() {
 		return nomePessoa;
@@ -25,6 +26,11 @@ public class Pessoa {
 		this.cpf = cpf;
 	}
 	
-	
+	public String getdtNascimento() {
+		return dtNascimento;
+	}
+	public void setdtNascimento(Date dtNascimento) {
+		this.dtNascimento = dtNascimento;
+	}
 
 }
